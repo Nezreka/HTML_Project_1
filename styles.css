@@ -3,6 +3,38 @@ body{
     margin: auto;
 }
 
+header{
+    background-color: #1f2937;
+}
+nav{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 100px!important;
+    height: auto;
+    filter: brightness(100);
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .section1.container{
     display: flex;
     background-color: #1f2937;
