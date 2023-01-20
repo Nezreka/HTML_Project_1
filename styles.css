@@ -50,6 +50,11 @@ body img{
     text-align: center;
 }
 
+.section2 .container{
+    max-width: 1000px;
+    margin: auto;
+}
+
 .section2 img{
     border: 5px solid #3882f6;
     border-radius: 10%;
@@ -67,6 +72,7 @@ body img{
     color: #1f2937;
     max-width: 800px;
     margin: auto;
+    text-align: center;
 }
 
 .section3 p{
@@ -79,3 +85,38 @@ body img{
     background-color: #e5e7eb;
     padding: 100px;
 }
+
+.section4{
+    padding: 75px 50px;
+    background-color: white;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section4 .container{
+    display: flex;
+    padding: 25px 25px;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+
+.section4 h2, .section4 p{
+    color: white;
+    margin: 0;
+}
+
+.section4 a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 35px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.section4 .item.link{
+    text-align: center;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
